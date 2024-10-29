@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@400;600;800;900&display=swap');
+
+.plugin-header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.plugin-header img {
+	position: absolute;
+	left: 0;
+	top: 30px;
+}
+.plugin-header h1 {
+	color: #122c53;
+	font-size: 27px;
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	font-family: 'Muli', sans-serif;
+	font-weight: 900;
+}
+#app {
+	background: #edf1f5;
+	padding: 0 1.25rem;
+	color: #122c53;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+}
+#app.app--grunberg {
+	background: #fff;
+}
+#app h1 {
+	display: none;
+}
+
+#app.app--settings .settings-wrapper h1 {
+   display: inline-block;
+   margin-bottom: 0;
+}
+#app.app--settings .settings-wrapper h1 + p {
+   margin-bottom: 1.5rem;
+}
+#app.app--settings {
+	background-color: #e7eaf1;
+	padding-top: 3.375rem;
+	padding-bottom: 3.375rem;
+	text-align: center;
+}
+.welcome-panel {
+   position:absolute;
+   left:-10000px;
+   top:auto;
+   width:1px;
+   height:1px;
+   overflow:hidden;
+}
